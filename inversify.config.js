@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 require("reflect-metadata");
 const inversify_1 = require("inversify");
-const types_1 = require("./types");
+const types_1 = require("./src/types");
 const bot_1 = require("./src/bot");
 const discord_js_1 = require("discord.js");
 const message_responder_1 = require("./src/services/message-responder");

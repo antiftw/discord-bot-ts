@@ -15,7 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.MessageResponder = void 0;
 const ping_finder_1 = require("./ping-finder");
 const inversify_1 = require("inversify");
-const types_1 = require("../../types");
+const types_1 = require("../types");
 let MessageResponder = class MessageResponder {
     constructor(pingFinder) {
         this.pingFinder = pingFinder;
